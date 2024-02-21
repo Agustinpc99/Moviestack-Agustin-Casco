@@ -4,8 +4,51 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home | Moviestack</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="./assets/images/Moviestack_favicon.png" type="image/x-icon">
 </head>
 <body>
-    
+    <div class="flex flex-col min-h-[100vh]">
+        <header class="flex gap-5 items-center bg-black">
+            <div class="flex items-center grow">
+                <a href="#"><div class="flex items-center">
+                <img class="h-[12vh]" src="./assets/images/Moviestack_isotipo.png" alt="Logo">
+                <h1 class="text-white text-5xl font-bold">MOVIESTACK</h1>
+                </div></a>
+            </div>
+            <nav class="px-10 text-white text-2xl">
+                <a class="bg-white text-black p-1 border rounded" href="#">HOME</a>
+                <a class="hover:bg-white hover:text-black p-1 border rounded" href="./peliculas.html">MOVIES</a>
+                <a class="hover:bg-white hover:text-black p-1 border rounded" href="#">FAVS</a>
+            </nav>
+        </header>
+        <main class="grow flex flex-col bg-zinc-800">
+            <div>
+                <img class="h-[65vh] w-full p-10 object-cover" src="./assets/images/banner.png" alt="Banner de la pagina">
+                <p class="text-center text-xl px-10 pb-10 text-white">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus, odio atque. Officiis sit natus ullam! Debitis hic harum, reprehenderit nisi illum eligendi molestias placeat alias sint qui repudiandae perferendis unde.
+                Minima doloremque assumenda, nihil exercitationem illum, vel voluptates autem corporis necessitatibus architecto voluptatem qui, culpa error est laudantium ipsam facilis optio soluta ipsum! Quidem harum rem ad vero tenetur recusandae.
+                Voluptas, sapiente cum nam assumenda maxime aliquam voluptate aut nulla corrupti facere, nemo dolorum esse numquam accusamus, dolor enim repellat inventore omnis fugiat temporibus! Ipsam facilis itaque ducimus eaque rerum?
+                Fuga molestias suscipit optio totam velit qui culpa, aliquam officia eius eum nobis quisquam fugiat maiores iste saepe doloremque mollitia autem inventore. Earum temporibus debitis distinctio doloremque? Numquam, accusamus quis.
+                Inventore optio quas hic modi odit ab labore. Labore laboriosam provident consequuntur blanditiis nostrum animi ab illo fuga ea nesciunt laborum praesentium nobis odit hic quis, dignissimos id similique quas? Lorem ipsum dolor sit amet consectetur adipisicing elit. A perspiciatis atque perferendis magni voluptate voluptas dolorum tenetur temporibus doloremque facere molestiae modi iure delectus, odit possimus eum quo exercitationem eius?
+                Repellendus ex labore quibusdam magnam eum perspiciatis odit sunt possimus modi, vero commodi nobis adipisci nam? Delectus recusandae odio dignissimos ut laborum excepturi maxime iusto mollitia hic sed, omnis nostrum?
+                Doloribus nulla sunt esse ab officiis laudantium laboriosam iure labore iusto molestiae quae, beatae sed accusantium qui fuga illo ad minima inventore cum nemo debitis ipsam. Porro sit nobis quaerat. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore sunt exercitationem illum, incidunt a, dolorum aperiam facere illo excepturi odit sit consequuntur laboriosam molestiae temporibus, necessitatibus porro amet rem sapiente!</p>
+            </div>
+            <div class="flex justify-evenly pb-[150px]">
+                <article class="flex flex-col gap-[70px] bg-[url('./assets/images/salacine.jpg')] bg-cover h-[30vh] w-[30vw] justify-center items-center rounded">
+                    <h3 class="border-blue-950 p-2 rounded-xl bg-blue-950 text-3xl font-bold shadow-2xl text-white">MOVIES</h3>
+                    <a class="hover:scale-105 border-blue-950 p-2 rounded-xl bg-blue-950 text-xl font-semibold shadow-2xl text-white" href="./peliculas.html">See our reviews</a>
+                </article>
+                <article class="flex flex-col gap-[70px] bg-[url('./assets/images/prod.jpg')] bg-cover h-[30vh] w-[30vw] justify-center items-center rounded">
+                    <h3 class="border-blue-950 p-2 rounded-xl bg-blue-950 text-3xl font-bold shadow-2xl text-white">FAVS</h3>
+                    <a class="hover:scale-105 border-blue-950 p-2 rounded-xl bg-blue-950 text-xl font-semibold shadow-2xl text-white" href="#">your favorites</a>
+                </article>
+            </div>
+        </main>
+        <footer class="flex gap-5 items-center bg-black justify-center">
+            <h3 class="text-white text-3xl py-5">MindHub - Cohort N</h3>
+        </footer>
+        <script src="./assets/scripts/data.js"></script>
+        <script src="./assets/scripts/main.js"></script>
+    </div>
 </body>
 </html>
