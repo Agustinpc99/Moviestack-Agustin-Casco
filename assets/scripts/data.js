@@ -654,6 +654,28 @@ movies = [
       "status": "Released",
       "tagline": "Some assembly required.",
       "budget": 220000000
+    },
+    {
+      "id": "42f7b6d8e9a34cf0a7dcab08",
+      "image": "https://thediscoverer.columbus.edu.co/wp-content/uploads/2023/02/gggg-900x506.jpg",
+      "genres": [
+        "Science Fiction",
+        "Drama",
+        "Adventure"
+      ],
+      "original_language": "en",
+      "overview": "In a future where Earth is becoming uninhabitable, a team of astronauts embarks on a journey through a newly discovered wormhole in search of a new habitable planet to ensure the survival of humanity.",
+      "popularity": 5500.123,
+      "release_date": "11/7/2014",
+      "title": "Interstellar",
+      "vote_average": 8.6,
+      "vote_count": 156328,
+      "homepage": "https://www.interstellarmovie.net/",
+      "revenue": 677471951,
+      "runtime": 169,
+      "status": "Released",
+      "tagline": "Mankind was born on Earth. It was never meant to die here.",
+      "budget": 165000000
     }
   ]
   
