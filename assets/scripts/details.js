@@ -97,11 +97,11 @@ zonaDetalle.innerHTML = `
                             </tr>
                             <tr>
                                 <td class="border text-white text-2xl">Budget</td>
-                                <td class="border text-white text-2xl">USD ${peliculaEncontrada.budget}</td>
+                                <td class="border text-white text-2xl">USD ${peliculaEncontrada.budget.toLocaleString()}</td>
                             </tr>
                             <tr>
                                 <td class="border text-white text-2xl">Revenue</td>
-                                <td class="border text-white text-2xl">USD ${peliculaEncontrada.revenue}</td>
+                                <td class="border text-white text-2xl">USD ${peliculaEncontrada.revenue.toLocaleString()}</td>
                             </tr>
                         </table>
                     </div>
