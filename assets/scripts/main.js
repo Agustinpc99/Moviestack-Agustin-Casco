@@ -9,7 +9,7 @@ function crearTarjeta(peliculas){
         <p class="self-center text-xl">${pelicula.tagline}</p>
         <p class="p-2 line-clamp-6" >${pelicula.overview}</p>
         <div class="flex-grow"></div>
-        <button class="p-1 text-white bg-black w-[25%] self-center mb-2"><a href="./details.html?id=${pelicula.id}">Details</a></button>
+        <a class="p-2 text-white bg-black self-center mb-2" href="./details.html?id=${pelicula.id}"><button>Details</button></a>
     </article>`
     }
     return cartas
