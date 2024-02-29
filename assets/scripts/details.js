@@ -2,13 +2,23 @@ let parametroUrl = new URLSearchParams(location.search)
 
 let id = parametroUrl.get("id")
 
-let peliculaEncontrada = movies.find(pelicula => pelicula.id == id)
-
 let zonaDetalle = document.querySelector("#detalles")
 
-zonaDetalle.innerHTML = `
+let init = {
+    method : "GET",
+    headers: {
+        "x-api-key": "0ff70d54-dc0b-4262-9c3d-776cb0f34dbd"
+    }
+}
+
+fetch("https://moviestack.onrender.com/api/movies",init)
+.then((algo) => algo.json())
+.then((algo) => {
+    let peliculas = algo.movies
+    let peliculaEncontrada = peliculas.find(pelicula => pelicula.id == id)
+    zonaDetalle.innerHTML = `
 <div class="flex flex-col gap-5 w-[35vw] justify-evenly">
-                    <div><img src="${peliculaEncontrada.image}" alt="Imagen de ${peliculaEncontrada.title}"></div>
+                    <div><img src="https://moviestack.onrender.com/static/${peliculaEncontrada.image}" alt="Imagen de ${peliculaEncontrada.title}"></div>
                     <div>
                         <table>
                             <tr>
@@ -54,3 +64,6 @@ zonaDetalle.innerHTML = `
                         </table>
                     </div>
                 </div>`
+})
+
+
