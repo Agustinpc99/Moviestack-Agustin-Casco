@@ -96,6 +96,16 @@ fetch("https://moviestack.onrender.com/api/movies",init)
             }
         }
         
+        seccionPeliculas.addEventListener("click",() => {
+            if(e.target.value == "Favorites"){
+                let peliculasFavoritosCartas = crearTarjetaFav(listaFav)
+                renderizar(peliculasFavoritosCartas,seccionPeliculas)
+                if(seccionPeliculas.children.length == 0){
+                    seccionPeliculas.innerHTML = `<h3 class="text-2xl text-white">No Movie Fav</h3>`
+                }
+            
+            }
+        })
         if(e.target.value == "Favorites"){
             let peliculasFavoritosCartas = crearTarjetaFav(listaFav)
             renderizar(peliculasFavoritosCartas,seccionPeliculas)
@@ -104,6 +114,7 @@ fetch("https://moviestack.onrender.com/api/movies",init)
             }
         
         }
+        
     })
 })
 
