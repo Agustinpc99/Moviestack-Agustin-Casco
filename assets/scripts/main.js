@@ -1,7 +1,7 @@
 import{crearTarjeta,renderizar,seleccionado,filtrarNombrePelicula,crearTarjetaFav} from "../module/funciones.js"
 
 const seccionPeliculas = document.getElementById("peliculas")
-
+let seccionGeneros = document.getElementById("generos")
 let favTwo = document.getElementById("fav2")
 let favOne = document.getElementById("fav1")
 
@@ -15,8 +15,12 @@ let init = {
 fetch("https://moviestack.onrender.com/api/movies",init)
 .then((algo) => algo.json())
 .then((algo) => {
-    console.log(algo)
     let peliculas = algo.movies
+    let generosGenerados = new Set(peliculas.map((e) => e.genres ).flat())
+    console.log(generosGenerados)
+    for(let genero of generosGenerados){
+        seccionGeneros.innerHTML += `<option value="${genero}">${genero}</option>`
+    }
     let cartasPeliculas = crearTarjeta(peliculas)
     if(seccionPeliculas){
         renderizar(cartasPeliculas,seccionPeliculas)
@@ -69,7 +73,9 @@ fetch("https://moviestack.onrender.com/api/movies",init)
         }
         for(let i of listaFav){
             let iconoFav = document.querySelector(`[data-id="${i.id}"]`)
-            iconoFav.src = favTwo.src
+            if(iconoFav){
+                iconoFav.src = favTwo.src
+            }
         }
         
     })
