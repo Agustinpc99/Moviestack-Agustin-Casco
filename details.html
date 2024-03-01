@@ -9,24 +9,24 @@
 </head>
 <body>
     <div class="flex flex-col h-screen w-full">
-        <header class="flex gap-5 items-center bg-black">
+        <header class="flex gap-5 items-center bg-black w-full">
             <div class="flex items-center grow">
-                <a href="./index.html"><div class="flex items-center">
-                <img class="h-[12vh]" src="./assets/images/Moviestack_isotipo.png" alt="Logo">
-                <h1 class="text-white text-5xl font-bold">MOVIESTACK</h1>
+                <a href="#"><div class="flex items-center">
+                <img class="h-[7vh] md:h-[12vh]" src="./assets/images/Moviestack_isotipo.png" alt="Logo">
+                <h1 class="text-white font-bold md:text-5xl">MOVIESTACK</h1>
                 </div></a>
             </div>
-            <nav class="px-10 text-white text-2xl">
+            <nav class="md:px-10 text-white text-sm flex md:text-2xl md:gap-2">
                 <a class="hover:bg-white hover:text-black p-1 border rounded" href="./index.html">HOME</a>
-                <a class="bg-white text-black p-1 border rounded" href="./peliculas.html">MOVIES</a>
-                <a class="hover:bg-white hover:text-black p-1 border rounded" href="#">FAVS</a>
+                <a class="bg-white text-black p-1 border rounded" href="#">MOVIES</a>
+                <a class="hover:bg-white hover:text-black p-1 border rounded" href="./favoritos.html">FAVS</a>
             </nav>
         </header>
         <main class="grow flex bg-zinc-800">
             <div id="detalles" class="flex w-full justify-around"></div>
         </main>
-        <footer class="flex gap-5 items-center bg-black justify-center">
-            <h3 class="text-white text-3xl py-5">MindHub - Cohort N</h3>
+        <footer class="flex gap-5 items-center bg-black justify-center w-full">
+            <h3 class="text-white md:text-3xl py-5">MindHub - Cohort N</h3>
         </footer>
         <script src="./assets/scripts/data.js"></script>
         <script src="./assets/scripts/details.js"></script>

@@ -15,6 +15,7 @@ let init = {
 fetch("https://moviestack.onrender.com/api/movies",init)
 .then((algo) => algo.json())
 .then((algo) => {
+    console.log(algo)
     let peliculas = algo.movies
     let cartasPeliculas = crearTarjeta(peliculas)
     if(seccionPeliculas){
