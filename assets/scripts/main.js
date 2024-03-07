@@ -17,7 +17,6 @@ fetch("https://moviestack.onrender.com/api/movies",init)
 .then((algo) => {
     let peliculas = algo.movies
     let generosGenerados = new Set(peliculas.map((e) => e.genres ).flat())
-    console.log(generosGenerados)
     for(let genero of generosGenerados){
         seccionGeneros.innerHTML += `<option value="${genero}">${genero}</option>`
     }

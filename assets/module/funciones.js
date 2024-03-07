@@ -8,7 +8,7 @@ export function crearTarjeta(peliculas){
         <p class="p-2 lg:text-base text-xs line-clamp-6" >${pelicula.overview}</p>
         <div class="flex-grow"></div>
         <a class="lg:p-2 p-1 text-white bg-black self-center mb-2 rounded" href="./details.html?id=${pelicula.id}"><button>Details</button></a>
-        <img data-id="${pelicula.id}" class="w-[50px] absolute bottom-0 end-0 p-1 hover:scale-110" src="./assets/images/fav.png" alt="Favoritos">
+        <img data-id="${pelicula.id}" class="w-[50px] absolute bottom-0 end-0 p-1 hover:scale-110 cursor-pointer" src="./assets/images/fav.png" alt="Favoritos">
     </article>`
     }
     return cartas
@@ -39,7 +39,7 @@ export function crearTarjetaFav(peliculas){
         <p class="p-2 lg:text-base text-xs line-clamp-6" >${pelicula.overview}</p>
         <div class="flex-grow"></div>
         <a class="lg:p-2 p-1 text-white bg-black self-center mb-2 rounded" href="./details.html?id=${pelicula.id}"><button>Details</button></a>
-        <img data-id="${pelicula.id}" class="w-[50px] absolute bottom-0 end-0 p-1 hover:scale-110" src="./assets/images/fav2.png" alt="Favoritos">
+        <img data-id="${pelicula.id}" class="w-[50px] absolute bottom-0 end-0 p-1 hover:scale-110 cursor-pointer" src="./assets/images/fav2.png" alt="Favoritos">
     </article>`
     }
     return cartas
