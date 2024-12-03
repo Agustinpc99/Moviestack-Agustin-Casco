@@ -33,7 +33,7 @@ export function crearTarjetaFav(peliculas){
     let cartas = ""
     for(let pelicula of peliculas){
         cartas += `<article class="flex flex-col md:h-[55vh] md:w-[22vw] border-slate-400 rounded bg-slate-400 relative">
-        <img class="rounded-t" src="https://moviestack.onrender.com/static/${pelicula.image}" alt="Portada de la pelicula ${pelicula.title}">
+        <img class="rounded-t" src="${pelicula.image}" alt="Portada de la pelicula ${pelicula.title}">
         <h3 class="self-center lg:text-2xl text-lg font-semibold underline underline-offset-3 font-serif">${pelicula.title}</h3>
         <p class="self-center lg:text-lg text-sm">${pelicula.tagline}</p>
         <p class="p-2 lg:text-base text-xs line-clamp-6" >${pelicula.overview}</p>
