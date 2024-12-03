@@ -1,3 +1,4 @@
+import {movies} from "./data.js"
 let parametroUrl = new URLSearchParams(location.search)
 
 let id = parametroUrl.get("id")
@@ -11,14 +12,11 @@ let init = {
     }
 }
 
-fetch("https://moviestack.onrender.com/api/movies",init)
-.then((algo) => algo.json())
-.then((algo) => {
-    let peliculas = algo.movies
+    let peliculas = movies
     let peliculaEncontrada = peliculas.find(pelicula => pelicula.id == id)
     zonaDetalle.innerHTML = `
 <div class="flex flex-col gap-5 w-[55vw] md:w-[35vw] md:justify-evenly justify-between my-2 md:my-0">
-                    <div><img src="https://moviestack.onrender.com/static/${peliculaEncontrada.image}" alt="Imagen de ${peliculaEncontrada.title}"></div>
+                    <div><img src="${peliculaEncontrada.image}" alt="Imagen de ${peliculaEncontrada.title}"></div>
                     <div>
                         <table>
                             <tr>
@@ -64,6 +62,6 @@ fetch("https://moviestack.onrender.com/api/movies",init)
                         </table>
                     </div>
                 </div>`
-})
+
 
 
