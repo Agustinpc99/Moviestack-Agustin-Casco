@@ -1,7 +1,7 @@
 let movies = [
     {
       "id": "653035c2c61a4a32bd272480",
-      "image": "https://moviestack.onrender.com/static/y5szbv8zju.jpg",
+      "image": "https://ihorror.com/wp-content/uploads/2023/07/the-nun-2-trailer.jpeg",
       "genres": [
         "Horror",
         "Mystery",
@@ -23,7 +23,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd272481",
-      "image": "https://moviestack.onrender.com/static/vlzyyn9td8.jpg",
+      "image": "https://www1.cbn.com/sites/default/files/styles/video_ratio_16_9/public/media/slider/images/soundoffreedomposter_hdv_1.jpg?itok=sZ6oQ4dd",
       "genres": [
         "Action",
         "Drama"
@@ -44,7 +44,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd272482",
-      "image": "https://moviestack.onrender.com/static/nvjjd4tbnx.jpg",
+      "image": "https://www.gran-turismo.com/images/c/i13ynTpBw8HAmb.jpg",
       "genres": [
         "Adventure",
         "Action",
@@ -66,7 +66,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd272483",
-      "image": "https://moviestack.onrender.com/static/kp4vyfpa8b.jpg",
+      "image": "https://ntvb.tmsimg.com/assets/p20518399_v_h8_ad.jpg?w=1280&h=720",
       "genres": [
         "Action",
         "Crime",
@@ -88,7 +88,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd272486",
-      "image": "https://moviestack.onrender.com/static/1tq4u43wwf.jpg",
+      "image": "https://i.ytimg.com/vi/44iaVbwQu80/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDEctMsjvcEFCm80YOtfaDHyQMmmA",
       "genres": [
         "Fantasy",
         "Comedy"
@@ -109,7 +109,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd272484",
-      "image": "https://moviestack.onrender.com/static/4yxeyq2o1k.jpg",
+      "image": "https://martinwullich.com/wp-content/uploads/2024/02/a.jpg",
       "genres": [
         "Comedy",
         "Adventure",
@@ -131,7 +131,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd272485",
-      "image": "https://moviestack.onrender.com/static/zv15772eut.jpg",
+      "image": "https://media.gq.com.mx/photos/63767e98ca4b27ec24fce56e/16:9/w_2095,h_1178,c_limit/ELEMENTOS%20-%20P%C3%B3ster.jpg",
       "genres": [
         "Animation",
         "Comedy",
@@ -155,7 +155,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd272487",
-      "image": "https://moviestack.onrender.com/static/2pqmfzopqq.jpg",
+      "image": "https://891khol.org/wp-content/uploads/2023/07/Untitled-design-jpg.webp",
       "genres": [
         "Action",
         "Thriller"
@@ -176,7 +176,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd272488",
-      "image": "https://moviestack.onrender.com/static/p369xj1lon.jpg",
+      "image": "https://cosmicbook.news/wp-content/uploads/2023/10/spider-man-across-spider-verse-netflix-october.jpg",
       "genres": [
         "Animation",
         "Action",
@@ -198,7 +198,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd27248a",
-      "image": "https://moviestack.onrender.com/static/tw9rw78qoq.jpg",
+      "image": "https://beam-images.warnermediacdn.com/BEAM_LWM_DELIVERABLES/69cf2552-e159-43c7-ad8e-34f7f3393514/33d099ef447fd57ddc6e4dee497eeac64a74f4d5.jpg?host=wbd-images.prod-vod.h264.io&partner=beamcom",
       "genres": [
         "Action",
         "Adventure",
@@ -220,7 +220,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd27248b",
-      "image": "https://moviestack.onrender.com/static/2he6f40h5q.jpg",
+      "image": "https://i.ytimg.com/vi/t8HReKSqAZM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCaPxNOiAUlfcyOGmKKoVgQI5BxUA",
       "genres": [
         "Action",
         "Thriller",
@@ -242,7 +242,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd272489",
-      "image": "https://moviestack.onrender.com/static/0r81x6xczm.jpg",
+      "image": "https://snworksceo.imgix.net/obs/086a8257-1423-4457-b6a3-3035b101edc0.sized-1000x1000.png?w=1000&dpr=2",
       "genres": [
         "Animation",
         "Family",
@@ -266,7 +266,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd27248c",
-      "image": "https://moviestack.onrender.com/static/sonsvqph6g.jpg",
+      "image": "https://m.media-amazon.com/images/S/pv-target-images/4adb489c4cca582d891b3a65044e7a0c2b5f93cd5380ceb622aaa1b0c9f28df0.jpg",
       "genres": [
         "Animation",
         "Comedy",
@@ -288,7 +288,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd27248d",
-      "image": "https://moviestack.onrender.com/static/yw8zblwiln.jpg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc68f6gDSh3nEMKCwBW-iGL6hGIqYRs6kc6Q&s",
       "genres": [
         "Drama",
         "History"
@@ -309,7 +309,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd27248e",
-      "image": "https://moviestack.onrender.com/static/3fxqsoozid.jpg",
+      "image": "https://datg-cms-source-repo.s3.amazonaws.com/ABC/DisneyPlusMisc/H_ABC_TheWondefulWorldOfDisney_TheLittleMermaid_16x9_3716/10d7f1d9-fed3-487c-82cd-445496a9dc95.jpg",
       "genres": [
         "Adventure",
         "Family",
@@ -332,7 +332,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd272519",
-      "image": "https://moviestack.onrender.com/static/xtoqnlgiyd.jpg",
+      "image": "https://imagenes.20minutos.es/files/image_1920_1080/uploads/imagenes/2019/06/28/saw.jpg",
       "genres": [
         "Horror",
         "Mystery",
@@ -354,7 +354,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd2724ce",
-      "image": "https://moviestack.onrender.com/static/twkrtig0ga.jpg",
+      "image": "https://www.findelahistoria.com/web/wp-content/uploads/2022/11/avatar-the-way-of-water.jpg",
       "genres": [
         "Science Fiction",
         "Adventure",
@@ -376,7 +376,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd2724d2",
-      "image": "https://moviestack.onrender.com/static/bcwhnfkeag.jpg",
+      "image": "https://images.thedirect.com/media/article_full/spid-blu-ray.jpg",
       "genres": [
         "Action",
         "Adventure",
@@ -398,7 +398,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd2724d1",
-      "image": "https://moviestack.onrender.com/static/02y2vlaxe9.jpg",
+      "image": "https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2018/04/avengers-infinity-war-joe-y-anthony-russo-scaled-1.jpg?fit=2000%2C1334&quality=70&strip=all&ssl=1",
       "genres": [
         "Adventure",
         "Action",
@@ -420,7 +420,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd272534",
-      "image": "https://moviestack.onrender.com/static/p6ydaicfpp.jpg",
+      "image": "https://i.ytimg.com/vi/Rk_ytxghccc/maxresdefault.jpg",
       "genres": [
         "Animation",
         "Family",
@@ -443,7 +443,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd2724d4",
-      "image": "https://moviestack.onrender.com/static/4vz97op5y2.jpg",
+      "image": "https://i.ytimg.com/vi/bv_EIBmcOnc/maxresdefault.jpg",
       "genres": [
         "Adventure",
         "Drama",
@@ -465,7 +465,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd2724d6",
-      "image": "https://moviestack.onrender.com/static/0ti8kfd1n8.jpg",
+      "image": "https://ohmygeek.net/wp-content/uploads/2023/01/Top-Gun-Maverick.jpg.webp",
       "genres": [
         "Action",
         "Drama"
@@ -486,7 +486,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd27252a",
-      "image": "https://moviestack.onrender.com/static/6ha37rbtaa.jpg",
+      "image": "https://images.bauerhosting.com/legacy/empire-tmdb/films/674/images/gzKW3emulMxIHzuXxZoyDB1lei9.jpg?ar=16%3A9&fit=crop&crop=top&auto=format&w=1440&q=80",
       "genres": [
         "Adventure",
         "Fantasy"
@@ -507,7 +507,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd2724e8",
-      "image": "https://moviestack.onrender.com/static/piihneq9w7.jpg",
+      "image": "https://www.visithutch.com/media/userfiles/subsite_14/files/Extra%20Calendar%20Images/Uncharted.jpg",
       "genres": [
         "Action",
         "Adventure"
@@ -528,7 +528,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd27251f",
-      "image": "https://moviestack.onrender.com/static/hcd63galul.jpg",
+      "image": "https://resizing.flixster.com/YeCRFpfZxSG45Ufw2vPB_L22VuY=/fit-in/705x460/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p24133539_v_h8_aj.jpg",
       "genres": [
         "Mystery",
         "Thriller",
@@ -550,7 +550,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd2724ed",
-      "image": "https://moviestack.onrender.com/static/9axle2d4wj.jpg",
+      "image": "https://m.media-amazon.com/images/M/MV5BOWE1MWE3ZDktOThlZS00ZmRiLWE4ZGEtNWJkMTVlZjdhZDIyXkEyXkFqcGdeQW1pYnJ5YW50._V1_.jpg",
       "genres": [
         "Drama",
         "Crime"
@@ -571,7 +571,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd272527",
-      "image": "https://moviestack.onrender.com/static/4wqr6g4a28.jpg",
+      "image": "https://resizer.iproimg.com/unsafe/1280x/filters:format(webp)/https://assets.iprofesional.com/assets/jpg/2021/02/512645.jpg",
       "genres": [
         "Animation",
         "Comedy",
@@ -593,7 +593,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd2724cf",
-      "image": "https://moviestack.onrender.com/static/6xefycbew8.jpg",
+      "image": "https://c.files.bbci.co.uk/17808/production/_118046269_gettyimages-877330410.jpg",
       "genres": [
         "Drama",
         "Romance"
@@ -614,7 +614,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd2724eb",
-      "image": "https://moviestack.onrender.com/static/hhl2nc1bz5.jpg",
+      "image": "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2024/02/dune-parte-2-3276055.jpg?tf=3840x",
       "genres": [
         "Science Fiction",
         "Adventure"
@@ -635,7 +635,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd2724d5",
-      "image": "https://moviestack.onrender.com/static/151vjyzxs8.jpg",
+      "image": "https://i0.wp.com/codigoespagueti.com/wp-content/uploads/2022/04/Resena-The-Avengers-el-crossover-que-cambio-la-industria-del-cine.jpg",
       "genres": [
         "Science Fiction",
         "Action",
