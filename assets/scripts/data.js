@@ -320,7 +320,7 @@ let movies = [
       "overview": "The youngest of King Triton’s daughters, and the most defiant, Ariel longs to find out more about the world beyond the sea, and while visiting the surface, falls for the dashing Prince Eric. With mermaids forbidden to interact with humans, Ariel makes a deal with the evil sea witch, Ursula, which gives her a chance to experience life on land, but ultimately places her life – and her father’s crown – in jeopardy.",
       "popularity": 404.909,
       "release_date": "5/18/2023",
-      "title": "The Little Mermaid",
+      "title": "La sinegrita",
       "vote_average": 6.532,
       "vote_count": 2199,
       "homepage": "https://movies.disney.com/the-little-mermaid-2023",
