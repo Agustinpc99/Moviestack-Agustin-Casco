@@ -1,7 +1,7 @@
 let movies = [
     {
       "id": "653035c2c61a4a32bd272480",
-      "image": "https://ihorror.com/wp-content/uploads/2023/07/the-nun-2-trailer.jpeg",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj1el5x4Ow9LL8OjnyDilys-XyLrgIKTawkQ&s",
       "genres": [
         "Horror",
         "Mystery",
