@@ -220,7 +220,7 @@ let movies = [
     },
     {
       "id": "653035c2c61a4a32bd27248b",
-      "image": "https://i.ytimg.com/vi/t8HReKSqAZM/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCaPxNOiAUlfcyOGmKKoVgQI5BxUA",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNO91oF9kNNPmULXgBb-dTABBI00JV7AF28g&s",
       "genres": [
         "Action",
         "Thriller",
